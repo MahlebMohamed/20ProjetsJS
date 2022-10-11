@@ -4,9 +4,48 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>From Validator</title>
+
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        
+
+        <div class="container">
+            <h2>Register With Us</h2>
+
+            <form id="form" class="form">
+                <div class="from-control">
+                    <label for="username">Username</label>
+                    <input type="text" id="username"
+                        placeholder="Enter username">
+                    <small>Error message</small>
+                </div>
+
+                <div class="from-control">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Enter email">
+                    <small>Error message</small>
+                </div>
+
+                <div class="from-control">
+                    <label for="password">Password</label>
+                    <input type="password" id="password"
+                        placeholder="Enter password">
+                    <small>Error message</small>
+                </div>
+
+                <div class="from-control">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword"
+                        placeholder="Enter password agin">
+                    <small>Error message</small>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+
+        <script src="main.js"></script>
     </body>
 </html>
